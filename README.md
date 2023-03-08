@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+Here are some core concepts for Todo list.
+# Components: 
+ReactJS is based on a component-based architecture, which means that you will need to create different components for different parts of your todo list. For example, you might create a component for the header, a component for the input form, a component for the list of tasks, and so on.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# State Management: 
+In ReactJS, state management is typically done using the "useState" hook. You will need to define the state variables for your todo list, such as the list of tasks, the current input value, and so on.
 
-## Available Scripts
+# Event Handling: 
+To handle user interactions, such as adding a new task or deleting an existing one, you will need to define event handlers for your components. These event handlers will update the state variables based on the user input.
 
-In the project directory, you can run:
+# Rendering: 
+In ReactJS, components are rendered based on their state and props. You will need to define how each component should be rendered based on the current state of your todo list.
 
-### `npm start`
+# Styling: 
+To make your todo list visually appealing, you will need to style your components using CSS or a CSS preprocessor like SASS. You can use inline styles, CSS modules, or a CSS framework like Bootstrap or Material UI to style your components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Overall, building a todo list in ReactJS involves understanding how to create and manage components, handle state and events, render components, style components, and persist data.
